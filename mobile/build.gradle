@@ -12,7 +12,7 @@ android {
             release {
                 keyAlias buildProperties['signKeyAlias']
                 keyPassword buildProperties['signKeyPassword']
-                storeFile file(buildProperties['signStorePath'])
+                //storeFile file(buildProperties['signStorePath'])
                 storePassword buildProperties['signStorePassword']
             }
         }
@@ -78,7 +78,7 @@ dependencies {
 }
 
 
-apply plugin: 'com.localazy.gradle'
+/*apply plugin: 'com.localazy.gradle'
 
 localazy {
     readKey "a8358596450190348286-6c93f41a75d8ced983708bf35c1da00c0bb4bda7c986e350f15809df8c3fd25b"
@@ -97,7 +97,7 @@ localazy {
         showUploadAll true
 
         files {
-            exclude "*/arrays.xml"
+            exclude "/arrays.xml"
         }
     }
 
@@ -110,4 +110,4 @@ localazy {
     resources {
         enabledForRelease true
     }
-}
+}*/

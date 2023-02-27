@@ -10,7 +10,7 @@ android {
         release {
             keyAlias buildProperties['signKeyAlias']
             keyPassword buildProperties['signKeyPassword']
-            storeFile file(buildProperties['signStorePath'])
+            //storeFile file(buildProperties['signStorePath'])
             storePassword buildProperties['signStorePassword']
         }
     }
@@ -58,7 +58,7 @@ dependencies {
 }
 
 
-apply plugin: 'com.localazy.gradle'
+/*apply plugin: 'com.localazy.gradle'
 
 localazy {
     copyFrom project(":mobile")
@@ -68,4 +68,4 @@ localazy {
         defaultLang "en"
         showUploadAll true
     }
-}
+}*/
