@@ -22,10 +22,10 @@
         GW4 46mm 450x450 dp-to-pixel ratio = 2.125
     -->
 
-    <dimen name="analog_layout_left_compl_left">55px</dimen>
-    <dimen name="analog_layout_left_compl_top">213px</dimen>
-    <dimen name="analog_layout_left_compl_right">167px</dimen>
-    <dimen name="analog_layout_left_compl_bottom">325px</dimen>
+    <dimen name="analog_layout_left_compl_left">60px</dimen>
+    <dimen name="analog_layout_left_compl_top">218px</dimen>
+    <dimen name="analog_layout_left_compl_right">162px</dimen>
+    <dimen name="analog_layout_left_compl_bottom">320px</dimen>
 
     <dimen name="analog_layout_right_compl_left">283px</dimen>
     <dimen name="analog_layout_right_compl_top">213px</dimen>

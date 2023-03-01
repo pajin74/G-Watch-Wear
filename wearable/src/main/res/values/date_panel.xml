@@ -17,7 +17,7 @@
 <resources>
     <color name="def_date_background_color">#00000000</color>
     <color name="def_date_month_color">#FFFC0709</color>
-    <color name="def_date_day_of_week_color">#FFFC0709</color>
+    <color name="def_date_day_of_week_color">#FFFCFCFC</color>
     <color name="def_date_day_of_month_color">#FFFCFCFC</color>
 
     <color name="def_date_border_color">#00000000</color>
